@@ -49,8 +49,6 @@
                                     <i class="fas fa-eye me-1"></i>Xem chi tiết
                                 </a>
                             </div>
-
-                            {{-- Admin có quyền xóa --}}
                             @if(session('user_role') == 1)
                                 <div class="col-md-2">
                                     <a href="/don-hang/xoa/{{ $order->order_id }}" 

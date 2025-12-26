@@ -15,7 +15,7 @@
       <div class="carousel-item active">
         <img src="{{ asset('img/1.jpg') }}" class="d-block w-100 hero-img" alt="Slide 1">
         <div class="carousel-caption hero-caption">
-          <h1 class="display-4 fw-bold">MyStore – Điện thoại chính hãng</h1>
+          <h1 class="display-4 fw-bold">H Store – Điện thoại chính hãng</h1>
           <p class="lead">iPhone • Samsung • Xiaomi <br> Giá tốt – Bảo hành 12 tháng</p>
           <a href="/san-pham" class="btn btn-light btn-lg mt-3">Khám phá ngay</a>
         </div>

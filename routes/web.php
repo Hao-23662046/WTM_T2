@@ -84,5 +84,11 @@ Route::post('admin/them-danh-muc', [CategoryController::class, 'store']);
 Route::get('admin/sua-danh-muc/{category_id}', [CategoryController::class, 'edit']);
 Route::put('admin/sua-danh-muc/{category_id}', [CategoryController::class, 'update']);
 Route::get('admin/xoa-danh-muc/{category_id}', [CategoryController::class, 'destroy']);
+Route::get('/about', function () {
+    return view('about');
+});
 
+Route::get('/contact', function () {
+    return view('contact');
+});
 
